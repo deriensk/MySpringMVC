@@ -1,0 +1,24 @@
+mvn -version
+mvn clean
+mvn clean compile package tomcat7:run
+
+run-- mvn packaget to find incomplete download packages, delete from the folder and run download again.
+
+replace all the content from:
+---------------------------------------
+https://raw.githubusercontent.com/yrojha4ever/JavaStudSpringMVCWeb/master/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
+
+
+
+
+aspect oriented programming(AOP) ?
+Inversion of control
+Dependency Injectioin
+
+Hibernate is JPA(java persistance api).
+2.1 version
+=========================================================================
+
+1. MyDynamicProject ends with 4 commits, left to push.
+2. Git initialised in MySpringDI, and ends.
+3. git initialized in MySpringMVC
