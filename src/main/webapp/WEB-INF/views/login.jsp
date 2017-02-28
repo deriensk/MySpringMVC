@@ -6,9 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
+
 </head>
 <body>
 
+	<h3> ${loginError}</h3>
 	<section class="loginform cf">
 		<form action="profile" method="post" model="user" accept-charset="utf-8">
 			<ul>
