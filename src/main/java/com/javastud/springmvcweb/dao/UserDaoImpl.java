@@ -10,6 +10,8 @@ import com.javastud.springmvcweb.model.User;
 
 
 @Repository
+//@Repository annotation, importing the DAOs into the DI container and
+//also this annotation makes the unchecked exceptions (thrown from DAO methods) eligible for translation into Spring DataAccessException
 public class UserDaoImpl implements UserDao{
 	
 	@Autowired //asking for bean, automatic dependency injection

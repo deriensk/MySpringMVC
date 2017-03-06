@@ -39,6 +39,9 @@ public class HomeController {
 	@RequestMapping(value="/profile", method=RequestMethod.POST)
 	public String profilePOST(@ModelAttribute User user, Model model, HttpSession session){
 		
+		//in order to create this method, create UserDao interface and UserDaoImpl Class
+		//and make private UserDao object(userDao) to make its use here
+		
 		// validate use with database
 		if(userDao.validateUser(user)){
 			
