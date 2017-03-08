@@ -5,6 +5,7 @@ import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
@@ -23,7 +24,9 @@ import com.javastud.springmvcweb.service.FileStorageService;
 @Controller
 @RequestMapping(value = "/stud")
 public class StudentController {
-
+	
+	
+	
 	@Autowired
 	private StudentDao studentDao;
 

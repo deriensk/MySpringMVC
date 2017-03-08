@@ -27,6 +27,9 @@ private static final Logger logger = LoggerFactory.getLogger(StudentRestControll
 	public ResponseEntity<List<Student>> studGetALL(){
 		logger.info("Fetching data from db..");
 		List<Student> studList = studentDao.getAll();
+		
+		logger.info("Student record becomes successful");
+		
 		ResponseEntity<List<Student>> resp = new ResponseEntity<>(studList, HttpStatus.OK);
 		return resp;
 	}
